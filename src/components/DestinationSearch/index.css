@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  list-style-type: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  font-weight: Bold;
+  color: #252627;
+}
+.input {
+  height: 30px;
+  width: 24vw;
+  margin-bottom: 30px;
+  border-width:0px;
+  background-color: #f1f5f9;
+}
+.search {
+    display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 15px;
+  height:50px;
+ 
+}
+.img {
+  width: 30px;
+  height:30px;
+  margin-bottom:25px;
+  
+}
